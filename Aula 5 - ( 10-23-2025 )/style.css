@@ -1,0 +1,25 @@
+
+/* No CSS:
+
+Faça o h1 azul e centralizado;
+Faça o parágrafo cinza e com tamanho 18px;
+Faça o botão com fundo vermelho, texto branco e bordas arredondadas. 
+
+*/
+
+
+#title{
+    color: blue;
+    text-align: center;
+}
+
+#paragrafo{
+    color: gray;
+    font-size: 18px;
+}
+
+#botao{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}

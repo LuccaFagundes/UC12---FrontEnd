@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a475e;
+}
+
+header {
+    padding: 20px;
+}
+
+
+nav a:first-child {
+    color: blue;
+}
+
+nav a:not(:first-child) {
+    text-decoration: none;
+    color: white;
+}
+
+
+#mainHeader {
+    display: flex;
+    background-color: #171a21;
+    padding-left: 30px;
+    align-items: center;
+}
+
+#installSteam {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+#subNav {
+    background-color: #1b2838;
+    width: 100%;
+    padding: 10px;
+
+    text-decoration: none;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+#searchSubNav {
+    display: flex;
+    margin-left: 300px;
+    width: 350px;
+}
+
+#imagesBox {
+    display: flex;
+    background-color: black;
+    width: 70%;
+}
+
+/* img {
+    max-width: 70%;
+    max-height: 70%;
+} */
+
+#sonicCover{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+#smallImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#smallImages img {
+    width: 150px;
+    height: 120px;
+
+}
